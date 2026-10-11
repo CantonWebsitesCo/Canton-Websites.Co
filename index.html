@@ -1,1 +1,359 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canton Websites Co. | Website Design</title>
+<meta name="description" content="Modern websites for small businesses in Canton and Holly Springs, Georgia.">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #080d18;
+    color: #f5f7ff;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 8%;
+    border-bottom: 1px solid #253147;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo span, h1 span {
+    color: #58a6ff;
+}
+
+nav a {
+    color: #d0d9e8;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #58a6ff;
+}
+
+.hero {
+    text-align: center;
+    padding: 110px 20px;
+    background: radial-gradient(ellipse at top, #17365e, #080d18 70%);
+}
+
+.tag {
+    display: inline-block;
+    color: #8bc4ff;
+    border: 1px solid #315782;
+    border-radius: 30px;
+    padding: 7px 15px;
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
+h1 {
+    font-size: clamp(40px, 7vw, 70px);
+    line-height: 1.1;
+    margin-bottom: 24px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    color: #bdc9da;
+    font-size: 17px;
+}
+
+.button {
+    display: inline-block;
+    background: #3182f6;
+    color: white;
+    text-decoration: none;
+    padding: 13px 23px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #1766d4;
+}
+
+section {
+    padding: 75px 8%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 12px;
+}
+
+.section-description {
+    text-align: center;
+    color: #aab7ca;
+    margin: 0 auto 40px;
+    max-width: 600px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+}
+
+.card {
+    background: #101827;
+    border: 1px solid #29374c;
+    padding: 28px;
+    border-radius: 13px;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #58a6ff;
+}
+
+.card h3 {
+    margin: 12px 0;
+}
+
+.card p {
+    color: #b2bfd1;
+    font-size: 14px;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+#about {
+    background: #0c1321;
+}
+
+.steps {
+    max-width: 750px;
+    margin: auto;
+}
+
+.step {
+    background: #111c2d;
+    border: 1px solid #29374c;
+    border-radius: 10px;
+    padding: 22px;
+    margin-bottom: 15px;
+}
+
+.step h3 {
+    color: #75b6ff;
+    margin-bottom: 5px;
+}
+
+.step p {
+    color: #b2bfd1;
+}
+
+.contact {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 55px 20px;
+    border: 1px solid #29466c;
+    border-radius: 18px;
+    background: linear-gradient(120deg, #102849, #101827);
+}
+
+.contact p {
+    color: #bdc9da;
+    margin: 15px auto 25px;
+    max-width: 550px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #8998ad;
+    border-top: 1px solid #263147;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 0 7px;
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 75px 20px;
+    }
+
+    section {
+        padding: 55px 6%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">CANTON <span>WEBSITES CO.</span></div>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero">
+    <div class="tag">CANTON & HOLLY SPRINGS, GEORGIA</div>
+
+    <h1>Your Business.<br><span>Better Online.</span></h1>
+
+    <p>
+        Professional, modern websites designed for local businesses.
+        Stand out online with a website built around your goals.
+    </p>
+
+    <a class="button" href="#contact">Get Started →</a>
+    <a class="button" href="#services">Our Services</a>
+</section>
+
+<section id="services">
+    <h2 class="section-title">What We Do</h2>
+
+    <p class="section-description">
+        Simple, professional websites made for small businesses.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">💻</div>
+            <h3>Website Design</h3>
+            <p>
+                Modern websites designed to make your business
+                look professional and stand out.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">📱</div>
+            <h3>Mobile Friendly</h3>
+            <p>
+                Websites that look great on phones, tablets,
+                and desktop computers.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">📍</div>
+            <h3>Local Businesses</h3>
+            <p>
+                Help customers find your services, business hours,
+                location, and contact information.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">⚡</div>
+            <h3>Simple & Effective</h3>
+            <p>
+                Give customers the information they need
+                without making things complicated.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="about">
+    <h2 class="section-title">How It Works</h2>
+
+    <p class="section-description">
+        Getting your business online can be simple.
+    </p>
+
+    <div class="steps">
+
+        <div class="step">
+            <h3>01. Tell Us About Your Business</h3>
+            <p>
+                Share your business information and explain
+                what you want your website to do.
+            </p>
+        </div>
+
+        <div class="step">
+            <h3>02. We Design Your Website</h3>
+            <p>
+                We create a design tailored to your business
+                and make changes based on your feedback.
+            </p>
+        </div>
+
+        <div class="step">
+            <h3>03. Launch Your Website</h3>
+            <p>
+                Once you approve the design, we'll help
+                publish your website online.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact">
+
+        <h2 class="section-title">Ready to Get Online?</h2>
+
+        <p>
+            Have a local business that needs a website?
+            Let's discuss your ideas and build something great.
+        </p>
+
+        <!-- Replace YOUR-EMAIL-HERE with your real email. -->
+        <a class="button" href="mailto:YOUR-EMAIL-HERE">
+            Request a Website →
+        </a>
+
+    </div>
+</section>
+
+</main>
+
+<footer>
+    © 2026 Canton Websites Co. | Canton & Holly Springs, Georgia
+</footer>
+
+</body>
+</html>
